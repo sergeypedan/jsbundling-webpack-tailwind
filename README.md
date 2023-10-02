@@ -1,24 +1,37 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Install Ruby version 3.2.2
 
-Things you may want to cover:
+```bash
+ruby-install ruby-3.2.2
+```
 
-* Ruby version
+Swith to Ruby version
 
-* System dependencies
+```bash
+chruby 3.2.2
+```
 
-* Configuration
+Switch to Node version
 
-* Database creation
+```bash
+nvm use 18 # 16 or 20 would do as well
+```
 
-* Database initialization
+Install gems
 
-* How to run the test suite
+```bash
+bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Install Node modules
 
-* Deployment instructions
+```bash
+yarn install
+```
 
-* ...
+Start Rails + CSS + JS compilation of processess described in `Procfile.dev`:
+
+```bash
+bin/dev
+```
