@@ -1,0 +1,16 @@
+!/app/assets/builds/.keep
+!/log/.keep
+!/tmp/.keep
+!/tmp/pids/
+!/tmp/pids/.keep
+.DS_Store
+/.bundle
+/app/assets/builds/*
+/config/master.key
+/db/*.sqlite3
+/db/*.sqlite3-*
+/log/*
+/node_modules
+/public/assets
+/tmp/*
+/tmp/pids/*

@@ -1,0 +1,3 @@
+puma: env RUBY_DEBUG_OPEN=true bin/rails server
+webpack: yarn webpack --watch
+tailwind: yarn tailwind --watch
